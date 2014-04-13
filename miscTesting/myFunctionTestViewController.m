@@ -31,7 +31,7 @@
     // Dispose of any resources that can be recreated.
 }
 
-long add_values(long a, long b)
+int add_values(int a, int  b)
 {
     return a + b;
 }
@@ -40,9 +40,9 @@ long add_values(long a, long b)
 - (IBAction)touchCardButton:(UIButton *)sender {
     
     
-    long result;
+    int result;
     result = add_values(10,20);
-    self.myOutput.text = [NSString stringWithFormat:@"Results: %ld", result];
+    self.myOutput.text = [NSString stringWithFormat:@"Results: %d", result];
     self.results = result;
   //  self.printresult;
 }
