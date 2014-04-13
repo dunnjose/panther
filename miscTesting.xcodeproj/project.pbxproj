@@ -14,7 +14,6 @@
 		1BB4B0EC18FB19E500634388 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BB4B0EB18FB19E500634388 /* main.m */; };
 		1BB4B0F018FB19E500634388 /* myFunctionTestAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BB4B0EF18FB19E500634388 /* myFunctionTestAppDelegate.m */; };
 		1BB4B0F318FB19E500634388 /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1BB4B0F118FB19E500634388 /* Main_iPhone.storyboard */; };
-		1BB4B0F618FB19E500634388 /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1BB4B0F418FB19E500634388 /* Main_iPad.storyboard */; };
 		1BB4B0F918FB19E500634388 /* myFunctionTestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BB4B0F818FB19E500634388 /* myFunctionTestViewController.m */; };
 		1BB4B0FB18FB19E500634388 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1BB4B0FA18FB19E500634388 /* Images.xcassets */; };
 		1BB4B10218FB19E500634388 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1BB4B10118FB19E500634388 /* XCTest.framework */; };
@@ -46,7 +45,6 @@
 		1BB4B0EE18FB19E500634388 /* myFunctionTestAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = myFunctionTestAppDelegate.h; sourceTree = "<group>"; };
 		1BB4B0EF18FB19E500634388 /* myFunctionTestAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = myFunctionTestAppDelegate.m; sourceTree = "<group>"; };
 		1BB4B0F218FB19E500634388 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
-		1BB4B0F518FB19E500634388 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
 		1BB4B0F718FB19E500634388 /* myFunctionTestViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = myFunctionTestViewController.h; sourceTree = "<group>"; };
 		1BB4B0F818FB19E500634388 /* myFunctionTestViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = myFunctionTestViewController.m; sourceTree = "<group>"; };
 		1BB4B0FA18FB19E500634388 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
@@ -117,7 +115,6 @@
 				1BB4B0EE18FB19E500634388 /* myFunctionTestAppDelegate.h */,
 				1BB4B0EF18FB19E500634388 /* myFunctionTestAppDelegate.m */,
 				1BB4B0F118FB19E500634388 /* Main_iPhone.storyboard */,
-				1BB4B0F418FB19E500634388 /* Main_iPad.storyboard */,
 				1BB4B0F718FB19E500634388 /* myFunctionTestViewController.h */,
 				1BB4B0F818FB19E500634388 /* myFunctionTestViewController.m */,
 				1BB4B0FA18FB19E500634388 /* Images.xcassets */,
@@ -232,7 +229,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1BB4B0F618FB19E500634388 /* Main_iPad.storyboard in Resources */,
 				1BB4B0FB18FB19E500634388 /* Images.xcassets in Resources */,
 				1BB4B0F318FB19E500634388 /* Main_iPhone.storyboard in Resources */,
 				1BB4B0EA18FB19E500634388 /* InfoPlist.strings in Resources */,
@@ -293,14 +289,6 @@
 				1BB4B0F218FB19E500634388 /* Base */,
 			);
 			name = Main_iPhone.storyboard;
-			sourceTree = "<group>";
-		};
-		1BB4B0F418FB19E500634388 /* Main_iPad.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				1BB4B0F518FB19E500634388 /* Base */,
-			);
-			name = Main_iPad.storyboard;
 			sourceTree = "<group>";
 		};
 		1BB4B10A18FB19E500634388 /* InfoPlist.strings */ = {
@@ -471,6 +459,7 @@
 				1BB4B11318FB19E500634388 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1BB4B11418FB19E500634388 /* Build configuration list for PBXNativeTarget "miscTestingTests" */ = {
 			isa = XCConfigurationList;
@@ -479,6 +468,7 @@
 				1BB4B11618FB19E500634388 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
